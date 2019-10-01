@@ -1,6 +1,6 @@
 <?php
 
-class About {
+class About extends Controller {
     public function index($nama = 'Ginanjar', $pekerjaan ='Gamer'){
         $this->view('about/index');
     }
