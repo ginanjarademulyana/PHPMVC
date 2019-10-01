@@ -11,6 +11,8 @@ class About extends Controller {
     }
 
     public function page(){
+        $this->view ('templates/header');
         $this->view('about/page');
+        $this->view ('templates/footer');
     }
 }
