@@ -2,10 +2,10 @@
 
 class About {
     public function index($nama = 'Ginanjar', $pekerjaan ='Gamer'){
-        echo "Halo, nama saya $nama dan saya seorang $pekerjaan";
+        $this->view('about/index');
     }
 
     public function page(){
-        echo 'About/page';
+        $this->view('about/page');
     }
 }
